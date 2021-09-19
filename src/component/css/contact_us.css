@@ -1,0 +1,87 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+body {
+    font-family: "Roboto" !important;
+    font-weight: 400 !important;
+    width: 100%;
+}
+
+.contact{
+    font-size: 28px !important;
+}
+.side-img {
+    height: 100vh;
+    padding:0px;
+    margin: 0px;
+    position: relative;
+    background-color: #19345e;
+}
+.opabg {
+    display: inline-block;
+    width: 433px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background-color: #19345e;
+    color: #19345e;
+    opacity:0.8;
+}
+.alterra-side
+{
+    top: 280px;
+    left: 90px;
+    max-width: 275px;
+    max-height: 142px;
+    margin:0px;
+    position:absolute;
+    opacity:0.8;
+}
+
+
+
+.form-session {
+    margin-left: 130px;
+    margin-right: 98px;
+    margin-top: 75px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.btn {
+    margin-top: 10px;
+    position: absolute;
+    width: 96px;
+    height: 40px;
+    background: #F47522 !important;
+    border-radius: 20px !important;
+    color: white !important;
+}
+
+.btn:hover {
+    margin-top: 10px;
+    position: absolute;
+    width: 96px;
+    height: 40px;
+    background: #ff5400 !important;
+    border-radius: 20px !important;
+    color: white !important;
+}
+
+.alert-warning {
+    color: white !important;
+    background-color: #19345e !important;
+}
+
+.asterisk {
+    color: #ff0000 !important;
+}
+
+.error-msg {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+} 

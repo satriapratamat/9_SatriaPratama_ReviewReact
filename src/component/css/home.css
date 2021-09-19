@@ -1,0 +1,82 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+
+.nav {
+    font-family: "Roboto" !important;
+    ;
+}
+
+.nav-link {
+    color: #19345E !important;
+}
+
+.nav-active {
+    color: #ff5400 !important;
+    font-weight: 700;
+}
+.nav-link:hover {
+    color: #ff5400 !important;
+}
+
+.bg { 
+ background: url(../img/bg-img.png); 
+ background-size: cover;
+ height: 100vh;
+ color: #19345e;
+}
+
+.profile-img {
+    max-width: 355px;
+    max-width: 355px;
+}
+
+.main-content {
+    padding-top: 114px;
+}
+
+.name-profile {
+    padding-top: 15px;
+    padding-left: 15px;
+
+}
+
+
+.title-name {
+    font-size: 85px;
+    margin-top: -40px;
+    margin-bottom: -30px;
+    font-weight: 700;
+}
+
+.paragraph {
+    margin-top: 21px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.hi-name {
+    margin-top: 21px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.btn {
+    margin-top: 10px;
+    position: absolute;
+    width: 130px !important;
+    padding: 5px 15px 5px 15px;
+    height: 40px;
+    background: #F47522 !important;
+    border-radius: 20px !important;
+    color: white !important;
+}
+
+.btn:hover {
+    margin-top: 10px;
+    position: absolute;
+    width: 130px !important;
+    padding: 5px 15px 5px 15px;
+    height: 40px;
+    background: #ff5400 !important;
+    border-radius: 20px !important;
+    color: white !important;
+}
