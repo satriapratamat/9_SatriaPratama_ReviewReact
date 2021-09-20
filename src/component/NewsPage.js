@@ -27,17 +27,14 @@ function News() {
             });
     }, []);
 
-    return ( <
-        >
-        <
-        Header / >
-        <
-        h3 className = { classes.title } > News today < /h3> <
-        div className = { classes.container } > {
+    return ( 
+        <>
+        <Header/>
+        <h3 className = { classes.title }> News today </h3>
+        <div className = { classes.container } > {
             error && < p className = { classes.error } > { error } < /p>} {
                 isLoading && [1, 1, 1, 1].map((el, idx) => {
-                    return <Loading key = { idx }
-                    />;
+                    return <Loading key = { idx }/>;
                 })
             } {
                 !error && !isLoading && ( <
@@ -52,12 +49,11 @@ function News() {
                                 />
                             );
                         })
-                    } <
-                    /ul>
+                    } </ul>
                 )
-            } <
-            /div> <
-            />
+            } 
+                </div> 
+</>
         );
     }
 
