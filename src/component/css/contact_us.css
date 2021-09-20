@@ -5,39 +5,39 @@ body {
     width: 100%;
 }
 
-.contact{
+.contact {
     font-size: 28px !important;
 }
+
 .side-img {
     height: 100vh;
-    padding:0px;
+    padding: 0px;
     margin: 0px;
     position: relative;
     background-color: #19345e;
 }
+
 .opabg {
     display: inline-block;
-    width: 433px;
+    width: 450px;
     height: 100vh;
     left: 0px;
     top: 0px;
     position: absolute;
     background-color: #19345e;
     color: #19345e;
-    opacity:0.8;
+    opacity: 0.8;
 }
-.alterra-side
-{
+
+.alterra-side {
     top: 280px;
     left: 90px;
     max-width: 275px;
     max-height: 142px;
-    margin:0px;
-    position:absolute;
-    opacity:0.8;
+    margin: 0px;
+    position: absolute;
+    opacity: 0.8;
 }
-
-
 
 .form-session {
     margin-left: 130px;
@@ -84,4 +84,4 @@ body {
     color: red;
     font-size: 14px;
     margin-top: 5px;
-} 
+}

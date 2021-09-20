@@ -9,7 +9,7 @@
     color: #19345E !important;
 }
 
-.nav-active {
+.nav-link:active {
     color: #ff5400 !important;
     font-weight: 700;
 }
